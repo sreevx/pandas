@@ -1864,7 +1864,6 @@ def _converter_dtype_warning(name: str) -> str:
     )
 
 
-
 def test_parallel_converter_thread_affinity_falls_back(tmp_path, monkeypatch):
     # A converter may capture a thread-affine resource such as a SQLite
     # connection created on the caller's thread (GH#68505).
